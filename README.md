@@ -25,7 +25,7 @@ For example, if you had a directory that looked like this:
 you could simply link the entire directory into the web root of the container like so:
 
 ```
-    docker run -p 8080:80 -v "$PWD:/usr/local/apache2/htdocs" chaseconey/htaccess-tester
+docker run -p 8080:80 -v "$PWD:/usr/local/apache2/htdocs" chaseconey/htaccess-tester
 ```
 
 and navigate via browser or some other client such as `curl` to [http://localhost:8080](https://localhost:8080).
@@ -43,5 +43,5 @@ To test your .htaccess, simply boot up your container, and add your rules. By de
 Any changes that are made to the `httpd.conf` will require a full rebuild of the image
 
 ```
-    docker-compose build --force-rm --no-cache --pull
+docker-compose build --force-rm --no-cache --pull
 ```
