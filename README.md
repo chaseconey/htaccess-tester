@@ -9,6 +9,7 @@ To test your .htaccess, simply boot up your container, and add your rules. By de
 
 * Boot container using compose - `docker-compose up`
 * Make edits to .htaccess - `vim .htaccess`
+* Test .htaccess by visiting expected url - `curl -IL http://localhost:8080/rawr`
 
 Any changes that are made to the `httpd.conf` will require a full rebuild of the image
 
