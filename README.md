@@ -2,7 +2,7 @@
 ## Apache .htaccess Tester
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/chaseconey/htaccess-tester.svg?style=flat-square)]()
-[![Docker Build Status](https://img.shields.io/docker/chaseconey/htaccess-tester/ffmpeg.svg?style=flat-square)]()
+[![Docker Build Status](https://img.shields.io/docker/build/chaseconey/htaccess-tester.svg?style=flat-square)]()
 
 A simple Docker container with mod_rewrite enabled for testing all of your .htaccess needs.
 
