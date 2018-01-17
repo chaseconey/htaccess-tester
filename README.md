@@ -28,7 +28,7 @@ you could simply link the entire directory into the web root of the container li
     docker run -p 8080:80 -v "$PWD:/usr/local/apache2/htdocs" chaseconey/htaccess-tester
 ```
 
-and navigate via browser or some other client such as `curl` to [https://localhost:8080](https://localhost:8080).
+and navigate via browser or some other client such as `curl` to [http://localhost:8080](https://localhost:8080).
 
 ### Via Github/Docker Compose (more control)
 
