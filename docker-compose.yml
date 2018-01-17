@@ -1,0 +1,9 @@
+# docker-compose.yml
+version: '3'
+services:
+  apache:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/usr/local/apache2/htdocs

@@ -1,0 +1,4 @@
+
+RewriteEngine on
+
+Redirect 301 /rawr https://www.creditcards.com
